@@ -23,7 +23,6 @@ public class ArraysCreator {
                         System.out.println();
                         throw new MyArrayDataException("Некорректное значение " +
                                 strArr[i][j] + " в позиции " + i + "x" + j + " ");
-
                     }
                 }
                 System.out.println();
