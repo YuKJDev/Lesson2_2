@@ -6,4 +6,8 @@ public class MyArrayDataException extends Exception {
         super(msg);
     }
 
+    public MyArrayDataException(String msg, Throwable cause) {
+        super(msg);
+    }
+
 }

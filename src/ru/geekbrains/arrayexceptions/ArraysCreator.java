@@ -22,7 +22,8 @@ public class ArraysCreator {
                     } catch (NumberFormatException e) {
                         System.out.println();
                         throw new MyArrayDataException("Некорректное значение " +
-                                strArr[i][j] + " в позиции " + i + "x" + j + " ");
+                                strArr[i][j] + " в позиции " + i + "x" + j + " ", e);
+
                     }
                 }
                 System.out.println();
